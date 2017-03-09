@@ -23,7 +23,7 @@
   "bin": {
     "home": "./bin/cli.js"
   },
-  "script": {
-    "test": "ava && xo ./bin/cli.js"
+  "scripts": {
+    "test": "ava && xo ./bin/cli.js && xo ./bin/apps.js"
   }
 }
