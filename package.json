@@ -1,0 +1,25 @@
+{
+  "name": "home-cli",
+  "version": "0.0.1",
+  "description": "Get your home page",
+  "main": "bin/cli.js",
+  "author": "Federico Vitale <fedevitale99@gmail.com> (rawnly.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "xo": "^0.17.1"
+  },
+  "dependencies": {
+    "clear": "^0.0.1",
+    "conf": "^0.12.0",
+    "execa": "^0.6.0",
+    "inquirer": "^3.0.6",
+    "meow": "^3.7.0",
+    "normalize-url": "^1.9.0",
+    "open": "^0.0.5",
+    "url-regex": "^4.0.0"
+  },
+  "bin": {
+    "home": "./bin/cli.js"
+  }
+}
