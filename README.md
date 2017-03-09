@@ -1,18 +1,23 @@
 # Home Cli
 > Your favourite website in commandline.
 
+# Installation
+```bash
+  $ [sudo] npm install --global home-cli  # or yarn
+```
+
 # Usage
 ```bash
-   $ home --help 
+   $ home --help
 
-     Usage 
-       $ home 
+     Usage
+       $ home
      Help
        -a --app     # Set the application.
        -u --url     # Set the website url.
 ```
 
-# Related 
+# Related
   - [splash-cli](splash) - **Unsplash**'s photos as your wallpaper.
   - [tmdb-cli](tmdb) - **The Movie Database** commandline
 
